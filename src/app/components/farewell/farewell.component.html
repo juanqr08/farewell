@@ -1,0 +1,28 @@
+<div class="b-divider"></div>
+<div class="px-4 py-5 my-5 text-center">
+    <i class="fas fa-users"></i>
+    <h1 class="display-5 fw-bold">Gracias y Hasta Luego</h1>
+    <div class="col-lg-8 mx-auto">
+      <p class="lead mb-4">
+        Trabajar a su lado fue una experiencia maravillosa, en el que tuve la oportunidad de empezar 
+        de cero, siendo mi primer trabajo, creciendo y aprendiendo cada dia mas, 
+        permitiendome avanzar y trabajar con grandes personas con los que pude aprender y tener momentos unicos con cada uno,
+        espero poder volver hablar y de pronto trabajar con ustedes en un futuro.
+      </p>
+      <div>
+        <i *ngFor="let item of socialNetworks" (click)="openURL(item.url)" title="{{item.title}}" class="fab fa-{{item.name}}"></i>
+      </div>
+    </div>
+    <!-- <div [formGroup]="forms" class="input-group mb-3">
+      <input  class="form-control forms"
+              formControlName="name"
+              [class.is-invalid]="nameValid" 
+              type="text"  
+              placeholder="Ingresa tu Nombre y Apellidos" 
+              aria-label="Ingresa tu Nombre y Apellidos" 
+              aria-describedby="button-addon2" 
+              (keyup.enter)="searchName()">
+      <button (click)="searchName()" class="btn btn-outline-primary" type="button" id="button-addon2">Buscar</button>
+    </div> -->
+</div>
+<div class="b-divider"></div>

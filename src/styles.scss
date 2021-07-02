@@ -1,1 +1,36 @@
-/* You can add global styles to this file, and also import other style files */
+.b-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 0.5em 1.5em rgb(0 0 0 / 10%), inset 0 0.125em 0.5em rgb(0 0 0 / 15%);
+}
+
+.fw-bold {
+    font-weight: 700!important;
+}
+
+.input-group {
+    margin: auto;
+    max-width: 80%;
+    padding-top: 20px;
+}
+
+.fas.fa-users {
+    font-size: 70px;
+    background: linear-gradient(#2778c4, #adb5bd);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.fab {
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 30px;
+    &.fa-linkedin {
+        color: rgb(0, 115, 177);
+    }
+    &.fa-whatsapp-square {
+        color: rgb(6, 215, 85);
+    }
+}
